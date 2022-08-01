@@ -1,0 +1,62 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+
+}
+
+.container{
+    align-items: center;
+    background-color: white;
+    margin-top:20px;
+    width: 60vw;
+    height: 80vh;
+    border-radius: 30px;
+    
+}
+.amount,.field,.years,.button {
+    align-self: flex-start;
+    margin-inline: auto;
+    margin-top:0.25em;
+    margin-bottom:1em
+    
+}
+
+.wrapper{
+    display: flex;
+    
+    
+    flex-direction: column;
+    width: 50vw;
+    height: 70vh;
+
+
+}
+h1{
+    text-align: center;
+    color: grey;
+    margin:30px 10px 20px 10px;
+}
+
+.style{
+    align-self:center;
+}
+footer{
+  
+  margin-top: 8em;
+  margin-inline: auto;
+}
+#val{
+    display: none;
+}
+#val > strong{
+    background: yellow;
+}
+footer > span{
+    font-size: 1em;
+}

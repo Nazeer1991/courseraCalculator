@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web App - Simple Interest Calculator</title>
+    <script defer src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+
+        <h1>Simple Interest Calculator:</h1>
+        <form id="form"action="/" method="GET">
+
+            <div class="wrapper">
+    
+                <div class="amount">
+                    <label for="amount">Amount</label>
+                    <input type="number" id="amount">
+                </div>
+                
+                <div class="field">
+                    <label for="roi">Interest</label>
+                
+                    <input type="range" id = "min-max" min="1" max="20" step="0.25">
+                    <span id="slideValue">12</span>
+                </div>
+                <div class="years">
+                    <label for="years">No. of Years</label>
+                    <select name="years" id="years">
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                        <option value="7">7</option>
+                        <option value="8">8</option>
+                        <option value="9">9</option>
+                        <option value="10">10</option>
+                    </select>
+                </div>
+                <div class="button">
+
+                    <button type="submit">Compute Interest</button>
+                </div>
+                <div id="val"class="style show">
+                    <!-- <p>If you deposit 1000,<br>at an interest rate of 10%,<br>You will receive an amount of 1000<br>in the year 2032</p> -->
+                </div>
+                <footer>
+                    &#169 Everyone Can Get Rich<br>
+                    This Calculator belongs to <span><strong>NAZEER</strong></span>. 
+                </footer>
+            </div>
+            
+        </form>
+    </div>
+    
+   
+
+</body>
+</html>
